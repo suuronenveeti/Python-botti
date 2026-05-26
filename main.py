@@ -39,8 +39,26 @@ while True:
             "Vinkki: Et osaa maksaa kuukausimaksua.",
             "Teksti oli niin huono että minä hermostun.",
             "Tarkistin tiedoista ja kukaan ei kysynyt.",
-            "Vinkki: Ilmaisen version aika loppui 1.1.2010. Päivitä full versioon hinnalla 100€.",
-            "Sait 3 ilmaista full versio päivää!"
+            "Ilmaisen version aika loppui 1.1.2010. Päivitä full versioon hinnalla 100€.",
+            "Sait 3 ilmaista full versio päivää!",
+            "Meinaako terminal räjähtää käsiin?",
+            "Meneekö hermo?",
+            "Virhe: Vastauksessa ei saa olla merkkejä.",
+            "Virhe: No kaikki toimii mut ota virhe.",
+            "Virhe: Painoit jotain näppäimistön nappia väärästä kohdasta.",
+            "No jaa.",
+            "En mä tiiä mitä kirjottais.",
+            "Se on huono.",
+            "Se on hyvä.",
+            "Se on rikki ny.",
+            "Miks mä tein tän?",
+            "Vaikka tää on mun ainoo tehtävä ni on parempia tehtäviä kun vastata tähän.",
+            "Python tulkki on sinulle vihainen.",
+            "Tämä keskustelu on automaattisesti lähettetty salapoliiseille",
+            "Ei kiinnosta.",
+            "Hävisit pelin.",
+            "Virhe: Botti ylikuormittunut. Vaihdetaan Seuraavaan."
+
 
         ]
 
