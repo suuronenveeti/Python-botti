@@ -19,7 +19,6 @@ while True:
     elif teksti.lower() in {"moi", "hei", "heippa", "terve"}:
         print("Hei! Olen botti.")
 
-    
     elif teksti.lower() == "lopeta":
         print("Keskustelu lopettettu. Aloita uusi lähettämälä viesti.")
     
@@ -64,8 +63,19 @@ while True:
             "Tämä keskustelu on automaattisesti lähettetty salapoliiseille",
             "Ei kiinnosta.",
             "Hävisit pelin.",
-            "Virhe: Botti ylikuormittunut. Vaihdetaan Seuraavaan."
-
+            "Virhe: Botti ylikuormittunut. Vaihdetaan Seuraavaan.",
+            "No ite oot.",
+            "Mene ulos ja kosketa ruohoa.",
+            "Varmaan ihan oma vika.",
+            "Nyt oli kyllä heikkolaatunen teksti.",
+            "Huutista.",
+            "Jep jep.",
+            "Hohhoijaa.",
+            "Juuh elikkäs.",
+            "Ei jatkoon.",
+            "Mene töihin.",
+            "Sun näppäimistöstä puuttuu selkeästi 'äly'-näppäin.",
+            "Odotatko sä oikeesti, että mä analysoin tän?"
 
         ]
 
