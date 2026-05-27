@@ -75,7 +75,11 @@ while True:
             "Ei jatkoon.",
             "Mene töihin.",
             "Sun näppäimistöstä puuttuu selkeästi 'äly'-näppäin.",
-            "Odotatko sä oikeesti, että mä analysoin tän?"
+            "Odotatko sä oikeesti, että mä analysoin tän?",
+            "Älä sano mulle noin!",
+            "Virhe: Kirjoitit liian hitaasti tai nopeasti.",
+            "Saattaa olla ettei full versio anna parempia vastauksia.",
+            "Tämä vastaus aukeaa full versiossa."
 
         ]
 
