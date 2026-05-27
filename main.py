@@ -1,7 +1,7 @@
 import random
 
 while True:
-    teksti = input("No laita teksti: ").strip()
+    teksti = input("No laita teksti(Tai kirjoia lopeta): ").strip()
 
     if not teksti:
         print("Sano nyt edes jotain!")
@@ -16,6 +16,13 @@ while True:
     elif teksti.lower() == "ok":
         print("Miten niin ok?")
 
+    elif teksti.lower() in {"moi", "hei", "heippa", "terve"}:
+        print("Hei! Olen botti.")
+
+    
+    elif teksti.lower() == "lopeta":
+        print("Keskustelu lopettettu. Aloita uusi lähettämälä viesti.")
+    
     else:
         vastaukset = [
             "Taktinen.",
