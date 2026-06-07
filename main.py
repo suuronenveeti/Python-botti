@@ -57,7 +57,8 @@ vastaukset = [
     "Virhe: Kirjoitit liian hitaasti tai nopeasti.",
     "Saattaa olla ettei full versio anna parempia vastauksia.",
     "Tämä vastaus aukeaa full versiossa.",
-    "Osta Ystävällisyys-DLC hintaan 10€ avataksesi tämäm vastauksen."
+    "Osta Ystävällisyys-DLC hintaan 10€ avataksesi tämäm vastauksen.",
+    "Sulla ei oo rahaa."
 ]
 
 while True:
