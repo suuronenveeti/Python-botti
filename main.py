@@ -44,7 +44,6 @@ vastaukset = [
     "Mene ulos ja kosketa ruohoa.",
     "Varmaan ihan oma vika.",
     "Nyt oli kyllä heikkolaatunen teksti.",
-    "Huutista.",
     "Jep jep.",
     "Hohhoijaa.",
     "Juuh elikkäs.",
@@ -62,7 +61,7 @@ vastaukset = [
     "AI-krediitit loppu osta niitä jostain.",
     "Missä on äly?",
     "Arvaa kiinnostaako.",
-    "Tosta huomaa että on näppäimistön enter rikki. Kannataa ihan huvikseen antaa mulle 100€."
+    "Vastaus hylätty."
 ]
 
 while True:
