@@ -58,7 +58,8 @@ vastaukset = [
     "Saattaa olla ettei full versio anna parempia vastauksia.",
     "Tämä vastaus aukeaa full versiossa.",
     "Osta Ystävällisyys-DLC hintaan 10€ avataksesi tämäm vastauksen.",
-    "Sulla ei oo rahaa."
+    "Sulla ei oo rahaa.",
+    "Osta README-DLC hintaan 50€ avataksesi tämän vastauksen."
 ]
 
 while True:
@@ -72,19 +73,19 @@ while True:
 
     if teksti_matala == "teksti":
         print("Jos mä kysyn tekstiä ni sä et sano teksti.")
-
+    
     elif teksti_matala == "en tiiä":
         print("No kyllä sä jotain tiiät.")
-
+    
     elif teksti_matala == "ok":
         print("Miten niin ok?")
-
+    
     elif teksti_matala in {"moi", "hei", "heippa", "terve"}:
         print("Hei! Olen botti.")
-
+    
     elif teksti_matala == "lopeta":
         print("Tämä ominaisuus aukeaa full versiossa.")
-            
+    
     else:
         taktinen_vastaus = random.choice(vastaukset)
         print(taktinen_vastaus)
