@@ -35,7 +35,6 @@ vastaukset = [
     "Se on hyvä.",
     "Se on rikki ny.",
     "Miks mä tein tän?",
-    "Vaikka tää on mun ainoo tehtävä ni on parempia tehtäviä kun vastata tähän.",
     "Python tulkki on sinulle vihainen.",
     "Tämä keskustelu on automaattisesti lähetetty salapoliiseille.",
     "Ei kiinnosta.",
