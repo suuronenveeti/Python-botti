@@ -59,7 +59,7 @@ vastaukset = [
     "Tämä vastaus aukeaa full versiossa.",
     "Osta Ystävällisyys-DLC hintaan 10€ avataksesi tämäm vastauksen.",
     "Sulla ei oo rahaa.",
-    "Osta README-DLC hintaan 50€ avataksesi tämän vastauksen."
+    "Siis tää on oikea AI."
 ]
 
 while True:
