@@ -1,28 +1,24 @@
 import sys
-import time
-
 
 def kaynnista_vuoto():
-    print("\nNyt sinun ram on minun.")
-
+    print("\nNyt sinun RAM on minun. Ei keskeytyksiä.")
+    
     muistisyoppo = []
+    blokin_koko_tavuina = 256 * 1024 * 1024  
+    blokki = bytearray(blokin_koko_tavuina)
+    
     blokit = 0
-
+    
     while True:
         try:
-            for _ in range(80):
-                isodata = ["RAM_ON_MINUN_NYT"] * 200000
-                muistisyoppo.append(isodata)
-                blokit += 1
-
-            otettu_gb = blokit * 0.0014901
+            muistisyoppo.append(bytes(blokki))
+            blokit += 1
             
-            print(f"Ram otettu {otettu_gb:.2f}GB.")
-            time.sleep(1)
-
+            otettu_gb = (blokit * blokin_koko_tavuina) / (1024 ** 3)
+            print(f"RAM otettu {otettu_gb:.2f} GB.")
+            
         except (KeyboardInterrupt, BaseException):
             continue
-
 
 if __name__ == "__main__":
     kaynnista_vuoto()
