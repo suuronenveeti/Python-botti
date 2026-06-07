@@ -4,7 +4,6 @@ import time
 
 def kaynnista_vuoto():
     print("\nNyt sinun ram on minun.")
-    time.sleep(1)
 
     muistisyoppo = []
     blokit = 0
