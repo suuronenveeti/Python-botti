@@ -1,4 +1,6 @@
 import random
+import socket
+import time
 
 vastaukset = [
     "Taktinen.",
@@ -64,7 +66,24 @@ vastaukset = [
     "Vastaus hylätty."
 ]
 
+def netti_on_pystyssa():
+    try:
+        socket.create_connection(("1.1.1.1", 53), timeout=0.5)
+        return True
+    except OSError:
+        return False
+
 while True:
+
+    if not netti_on_pystyssa():
+        print("Osta full versio avataksesi offline-tilan.")
+        print("Odotetaan nettiyhteyttä...")
+        while not netti_on_pystyssa():
+            time.sleep(1)
+        
+        print("Netti palasi! Voit jatkaa kokeilua.")
+        continue
+
     teksti = input("No laita teksti (Tai kirjoita lopeta): ").strip()
 
     if not teksti:
